@@ -1,0 +1,33 @@
+
+.vertical-menu {
+  overflow: hidden;
+  background-color: rgb(58, 88, 187);
+  height: 100%;
+  width: 275px;
+  float: left;
+  
+
+
+}
+.vertical-menu a {
+    background-color: rgb(58, 88, 187);
+    border-color: rgb(64, 98, 207);
+    color: rgba(255, 253, 253, 0.973);
+    display: block;
+    font-family: Andale Mono, monospace;
+    font-size: 20px;
+    padding: 25px;
+    text-decoration: none;
+    
+}
+.vertical-menu a:hover {
+  background-color: rgba(247, 247, 247, 0.973);
+  color: rgba(11, 241, 61, 0.521);
+}
+
+@media screen and (max-width: 400px) {
+  .vertical-menu  {
+    float: left;
+    width: 100%;
+  }
+}

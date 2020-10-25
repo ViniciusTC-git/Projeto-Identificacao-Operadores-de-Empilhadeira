@@ -1,0 +1,86 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body 
+{
+ 
+  background: #f1f1f1;
+
+}
+
+.titulo {
+  padding: 10px;
+  text-align: center;
+  background: rgb(134, 150, 204);
+
+   
+}
+.titulo h1{
+
+  color: #f1f1f1;
+
+}
+
+.linha:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.principal{
+
+  float: right;
+  width: 79%;
+  padding:20px;
+
+
+}
+
+.card {
+  background-color: rgba(118, 132, 179, 0.904);
+  padding: 20px;
+
+  text-align: center;
+  
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(134, 150, 204);
+  margin-top: 20px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,td{
+  border: 1px solid rgb(7, 5, 5);
+  background-color: rgb(240, 240, 240);
+}
+th {
+  height: 50px;
+  text-align: left;
+  vertical-align: bottom;
+
+}
+
+
+
+
+
+@media screen and (max-width: 900px) {
+  .principal {   
+    width: 100%;
+    padding: 0;
+  }
+  
+
+}
+
+
