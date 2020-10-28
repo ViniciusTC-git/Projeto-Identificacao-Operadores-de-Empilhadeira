@@ -2,8 +2,8 @@
 #include <HTTPClient.h>
 #include <WiFi.h>
 
-const char* ssid = "GVT-80B9";//Nome da rede
-const char* password = "81b6e0c049";//Senha da rede
+const char* ssid = "NOME REDE";//Nome da rede
+const char* password = "SENHA";//Senha da rede
 
 
 HTTPClient http;//Função da biblioteca <HTTPClient.h> que pede requisições POST e GET
